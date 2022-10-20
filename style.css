@@ -1,0 +1,1121 @@
+@import url(./fonts/fonts.css);
+
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+/* .page-container{
+    padding: 0 40px;
+} */
+.header{
+    margin-bottom: 90px;
+    
+}
+.header_content {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.main_content {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.logotype {
+    padding-top: 15px; 
+}
+header img {
+    max-width: 9%;
+    height: auto;
+}
+
+/* section howtowatch */
+
+#howtowatch{
+    width: 100%;
+}
+
+.coursepoints {
+    width: 33vw;
+    display: flex;
+    justify-content: space-between;
+    /* font-size: 1.25rem; */
+}
+
+.coursepoints div img {
+   width: 17%;
+}
+
+.coursepoints .course-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .coursepoints div:nth-child(2) {
+    width: 22%;
+} */
+
+.header1_photo {
+    margin-top: 29px;
+    max-width: 88%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header1_photo div {
+    max-width: 59%;
+    font-size: 1.25rem;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.header1_photo div:last-child {
+    width: 28.3%;
+}
+
+.header1_photo div img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: Roboto-Slap;
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 100%;
+}
+
+.header1_photo p {
+    max-width: 72%;
+}
+
+.quote {
+    font-family: Roboto-Slap;
+    font-weight: 400;
+    background-color: #1E4681;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    max-width: 41%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 68px;
+    margin-left: 22.5%;
+    margin-bottom: 173px;
+}
+
+.quote p {
+    margin: 0;
+}
+
+.quote p:first-child {
+    padding: 5% 3% 2% 5%;
+    text-align: left;
+    line-height: 130%;
+}
+
+.quote p:last-child {
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: right;
+    padding-right: 4%;
+    padding-bottom: 4%;
+}
+
+/* section aboutcourse */
+
+
+.course_descrip_photo {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 150%;
+}
+
+.course_descrip_photo div:last-child {
+    width: 31%;
+}
+
+.course_descrip_photo div img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-family: Roboto-Slap;
+    font-size: 3.4rem;
+    font-weight: 700;
+    line-height: 101.38%;
+}
+
+.main_descrip {
+    max-width: 58%;
+}
+
+.main_descrip p {
+    margin-top: 0;
+}
+
+.photo_lessons_comments {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 81%;
+    margin-top: 70px;
+    margin-bottom: 162px;
+}
+
+.comments_list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 130%;
+    margin-left: 15%;
+}
+
+.comments_list div {
+    max-width: 26%;
+    height: auto;
+}
+
+.photo_comments {
+    width: 30%;
+}
+
+.photo_lessons_comments img {
+    max-width: 100%;
+    height: auto;
+}
+
+.commentheader {
+    font-size: 1.55rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* section lessonsform */
+
+
+
+.lessons_form_descrip {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 89px;
+    margin-bottom: 179px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    max-width: 76%;
+    line-height: 130%;
+}
+
+.formheader {
+    color: #1E4681;
+    font-size: 1.55rem;
+    font-weight: 700;
+}
+
+.lessons_form_descrip div {
+    max-width: 27%;
+    height: auto;
+}
+
+/* section knowledge */
+
+
+
+#knowledge ul {
+    font-family: Roboto;
+    font-size: 1.5rem;
+    line-height: 150%;
+    margin-bottom: 248px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    max-width: 52.97%;
+}
+
+/* section programcourse */
+
+.programcourse_content h2 {
+    margin-left: 37px;
+}
+/* 
+.rects {
+    margin-top: 132px;
+    margin-bottom: 121px;
+} */
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 41px;
+    width: 100%;
+}
+
+.item:last-child {
+    width: 66%;
+    justify-content: space-between;
+}
+
+.item:last-child .square {
+    width: 47.78%;
+}
+
+.square {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 31.39%;
+}
+
+.square img {
+    width: 100%;
+    height: auto;
+}
+
+.square h3 {
+    margin: 11px 0 32px 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 1.87rem;
+    line-height: 130%;
+}
+
+.square p {
+    margin: 0 0 23px 19px;
+    font-family: Roboto;
+    font-size: 1.56rem;
+    line-height: 130%;
+}
+
+.item:last-child .square:last-child h3 {
+    margin: 16px 0 8px 20px;
+    line-height: 97%;
+}
+
+/* section recall */
+
+#recall {
+    background-color: #EFEFEF;
+}
+
+.recall_content {
+    height: 780px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+ /* .elements_rec {
+    margin-left: 37px;
+}  */
+
+.elements_rec h2 {
+    margin: 0;
+    padding-top: 91px;
+    padding-bottom: 63px;
+}
+
+.recall_info {
+    max-width: 68%;
+    max-height: 58%;
+    background-color: white;
+    border-radius: 30px;
+    
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+
+.recall_info div:first-child {
+    max-width: 88.4%;
+    max-height: 45%;
+    padding: 5% 6% 0 6%;
+    font-size: 1.25rem;
+    line-height: 150%;
+}
+
+.recall_info p {
+    margin: 0;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    font-size: 1.87rem;
+    font-family: Roboto-Slap;
+    font-weight: 700;
+    line-height: 101.38%;
+    max-width: 72.4%;
+}
+
+.avatar div:first-child {
+    width: 33%;
+    margin-bottom: 29px;
+    padding-left: 5%;
+}
+
+.avatar div img {
+    max-width: 100%;
+    height: auto;
+}
+
+.avatar div p {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.avatar div:last-child img {
+    width: 10%;
+}
+
+/* section shedule */
+
+#shedule {
+    background-color: #9DC9C8;
+}
+
+.shedule_content {
+    max-width: 1280px;
+    height: 780px;
+    margin: 0 auto;
+}
+
+/* .elements_sched {
+    padding-left: 37px;
+} */
+
+.elements_sched h2 {
+    margin: 0;
+    padding-top: 179px;
+    padding-bottom: 54px;
+}
+
+.name {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+.price {
+    font-size: 5rem;
+    margin-top: 0;
+    height: auto;
+}
+
+.shedule_description {
+    display: flex;
+    justify-content: space-between;
+    max-width: 56%;
+}
+
+.shedule_description div {
+    max-width: 45%;
+    height: auto;
+    font-size: 1.1rem;
+    line-height: 101.38%;
+}
+
+/* section footer */
+
+footer {
+    background-color: black;
+}
+
+.footer_content {
+    max-width: 1280px;
+    height: 390px;
+    margin: auto;
+}
+.second-content{
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+.elements_foot p {
+    color: white;
+    margin-top: 0;
+}
+
+.elements_foot {
+    display: flex;
+    justify-content: space-between;
+    max-width: 91%;
+    padding-left: 37px;
+}
+
+.ad_screen_contacts {
+    padding-top: 50px;
+    width: 16.9%;
+}
+
+.logo-sinchro {
+    width: 58%;
+}
+
+.logo-sinchro img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contacts {
+    margin-top: 54px;
+    max-width: 28%;
+}
+
+.number ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.number ul li {
+    font-size: 1.56rem;
+    line-height: 101.38%;
+}
+
+.number ul li:first-child {
+    margin-right: 7%;
+    max-width: 10%;
+}
+
+.number ul img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mail ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.mail ul li {
+    font-size: 1.56rem;
+    line-height: 101.38%;
+}
+
+.mail ul li:first-child {
+    margin-right: 7%;
+    min-width: 10%;
+}
+
+.mail ul img {
+    max-width: 100%;
+    height: auto;
+}
+
+.messengers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.messengers div {
+    width: 17.6%;
+}
+
+.messengers div img {
+    max-width: 100%;
+    height: auto;
+}
+
+.signature {
+    color: white;
+    font-size: 1.12rem;
+    line-height: 101.38%;
+    margin-top: 140px;
+    padding-left: 37px;
+}
+
+/* @media tablet */
+
+@media screen and (min-width: 611px) and (max-width: 1279px) {
+
+    /* section howtowatch */
+    #aboutcourse{
+        margin-left: 37px;
+    }
+    .coursepoints {
+        max-width: 40%;
+        font-size: 0.75rem;
+    }
+
+    .header1_photo {
+        margin-top: 8px;
+    }
+
+    .logotype {
+        padding-left: 37px; 
+    }
+
+    .howtowatch_content {
+        margin-left: 37px;
+    }
+    .lessonsform_content {
+        margin-left: 37px;
+    }
+    .knowledge_content {
+        margin-left: 37px;
+    }
+    .programcourse_content h2 {
+        margin-left: 37px;
+    }
+    .programcourse_content .rects{
+        margin-left: 10px;
+    }
+    .header1_photo div {
+        font-size: 0.75rem;
+    }
+
+    h1 {
+        font-size: 2.87rem;
+    }
+
+    .quote {
+        font-size: 0.87rem;
+        height: 116px;
+        border-radius: 2.9px;
+        margin-top: 39px;
+        margin-bottom: 100px;
+        max-width: 33.5%;
+    }
+    .quote p:first-child {
+        padding: 5% 3% 0% 5%;   
+    }
+
+    .quote p:last-child {
+        font-size: 0.75rem;
+    }
+
+    /* section aboutcourse */
+
+    .course_descrip_photo {
+        font-size: 0.87rem;
+        max-width: 90%;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .photo_lessons_comments {
+        margin-top: 30px;
+        margin-bottom: 94px;
+    }
+
+    .main_descrip {
+        max-width: 50%;
+    }
+
+    .comments_list {
+        font-size: 0.68rem;
+    }
+
+    .comments_list div {
+        max-width: 23%;
+    }
+
+    .photo_comments {
+        width: 20%;
+    }
+
+    .commentheader {
+        font-size: 0.93rem;
+    }
+
+    /* section lessonsform */
+
+    .lessons_form_descrip {
+        margin-top: 51px;
+        margin-bottom: 103px;
+        font-size: 0.68rem;
+    }
+
+    .formheader {
+        font-size: 0.93rem;
+    }
+
+    .lessons_form_descrip div {
+        max-height: 45px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    #knowledge ul {
+        font-size: 0.87rem;
+        margin-bottom: 130px;
+        width: 38.65%;
+    }
+
+    .rects {
+        margin-top: 76.7px;
+        margin-bottom: 52.6px;
+    }
+
+    .item {
+        width: 99%;
+        margin-bottom: 23.75px;
+    }
+
+    .item:last-child {
+        width: 65%;
+    }
+
+    .square {
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        width: 31.39%;
+    }
+
+    .item:last-child .square {
+        width: 47.79%;
+    }
+
+    .square h3 {
+        margin: 6.37px 0 18.53px 11.58px;
+        font-size: 1.06rem;
+    }
+
+    .square p {
+        margin: 0 0 13.32px 11px;
+        font-size: 0.87rem;
+    }
+
+    .item:last-child .square:last-child h3 {
+        margin: 9.27px 0 1px 11.58px;
+        line-height: 97%;
+    }
+
+    /* section recall */
+
+    .recall_content {
+        height: 451.75px;
+        margin: 0 auto;
+        max-width: 85%;
+    }
+
+    .elements_rec h2 {
+        padding-top: 53px;
+        padding-bottom: 40.26px;
+    }
+
+    .recall_info {
+        max-width: 58.18%;
+        max-height: 57.82%; 
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+    }
+
+    .recall_info div:first-child {
+        padding: 5% 6% 0 6%;
+        font-size: 0.75rem;
+    }
+
+    .avatar {
+        font-size: 1.06rem;
+        max-width: 72.4%;
+    }
+
+    .avatar div:first-child {
+        width: 24.24%;
+        margin-bottom: 16.8px;
+        padding-left: 5%;
+    }
+
+    .avatar div p {
+        margin-top: 1.91%;
+        margin-bottom: 6.51%;
+    }
+
+    /* section shedule */
+
+    .shedule_content {
+        height: 451.5px;
+        max-width: 85%;
+    }
+
+    .elements_sched h2 {
+        padding-top: 103.67px;
+        padding-bottom: 31.27px;
+    }
+
+    .name {
+        font-size: 0.87rem;
+    }
+
+    .price {
+        font-size: 2.87rem;
+    }
+
+    .shedule_description {
+        max-width: 45.69%;
+    }
+
+    .shedule_description div {
+        font-size: 0.62rem;
+    }
+
+    /* section footer */
+
+    .footer_content {
+        height: 225.88px;
+    }
+
+    .logo-sinchro {
+        width: 50%;
+    }
+
+    .ad_screen_contacts {
+        padding-top: 29px;
+    }
+
+    .contacts {
+        margin-top: 31px;
+    }
+
+    .number ul li {
+        font-size: 0.87rem;
+    }
+
+    .mail ul li {
+        font-size: 0.87rem;
+    }
+
+    .mail ul li:first-child {
+        min-width: 10%;
+    }
+
+    .messengers {
+        margin-top: 17px;
+        max-width: 85%;
+    }
+
+    .messengers div {
+        width: 17%;
+    }
+
+    .signature {
+        font-size: 0.62rem;
+        margin-top: 74px;
+    }
+}
+
+/* @media mobile */
+
+@media screen and (max-width: 612px) {
+
+    /* section howtowatch */
+    .main_content {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    .header{
+        max-width: 85%;
+        margin: 0 auto;
+    }
+   
+    .coursepoints {
+        max-width: 35%;
+        min-width: 237px;
+        margin-top: 47px;
+        font-size: 0.62rem;
+    }
+
+    .coursepoints div {
+        min-width: 75px;
+    }
+
+    .coursepoints div:nth-child(2) {
+        min-width: 59px;
+    }
+
+    .header1_photo {
+        margin-top: 8px;
+        flex-direction: column;
+    }
+
+    .header1_photo div {
+        font-size: 0.62rem;
+        max-width: 100%;
+    }
+
+    .header1_photo div:last-child {
+        min-width: 141px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .quote {
+        font-size: 0.68rem;
+        height: 93px;
+        border-radius: 2.3px;
+        margin-top: 39px;
+        margin-bottom: 75px;
+        margin-left: 0;
+        min-width: 225px;
+    }
+
+    .quote p:last-child {
+        font-size: 0.62rem;
+    }
+
+    /* section aboutcourse */
+
+    .course_descrip_photo {
+        font-size: 0.75rem;
+        flex-wrap: wrap;
+    }
+    .programcourse_content h2{
+        margin-left: 0px;
+    }
+    h2 {
+        font-size: 1.62rem;
+    }
+
+    .photo_lessons_comments {
+        margin-top: 30px;
+        margin-bottom: 76px;
+    }
+
+    .comments_list {
+        font-size: 0.62rem;
+        margin-left: 0;
+        max-width: 206px;
+        flex-wrap: wrap;
+    }
+
+    .comments_list div {
+        max-width: 40%;
+    }
+
+    .photo_comments {
+        display: none;
+    }
+
+    .course_descrip_photo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main_descrip {
+        min-width: 280px;
+    }
+
+    .course_descrip_photo div:last-child {
+        min-width: 170px;
+        margin: auto;
+    }
+
+    .commentheader {
+        font-size: 0.75rem;
+    }
+
+    /* section lessonsform */
+
+    .lessons_form_descrip {
+        margin-top: 17px;
+        margin-bottom: 73px;
+        font-size: 0.62rem;
+        flex-direction: column;
+    }
+
+    .formheader {
+        font-size: 0.75rem;
+    }   
+
+    .lessons_form_descrip div {
+        max-height: 50px;
+        margin-bottom: 30px;
+        max-width: 180px;
+    }
+
+    #knowledge h2,
+    #programcourse h2 {
+        font-size: 1.6rem;
+    }
+
+    #knowledge ul {
+        font-size: 0.75rem;
+        margin-bottom: 70px;
+        min-width: 280px;
+    }
+
+    .rects {
+        margin-top: 52px;
+        margin-bottom: 47.16x;
+    }
+
+    .item {
+        width: 185.92px;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 0;
+    }
+
+    .item:last-child {
+        width: 185.92px;
+    }
+
+    .square {
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+        width: 100%;
+        margin-bottom: 24.16px;
+    }
+
+    .item:last-child .square {
+        width: 100%;
+    }
+
+    .square h3 {
+        margin: 5.13px 0 14.91px 9.32px;
+        font-size: 0.87rem;
+    }
+
+    .square p {
+        margin: 0 0 8.85px 10.72px;
+        font-size: 0.75rem;
+    }
+
+    .item:last-child .square:last-child h3 {
+        margin: 9.27px 0 1px 11.58px;
+        line-height: 97%;
+    }
+
+    /* section recall */
+
+    .recall_content {
+        height: 423px;
+        width: auto;
+        max-width: 85%;
+    }
+
+    .elements_rec h2 {
+        padding-top: 42px;
+        padding-bottom: 28px;
+    }
+
+    .recall_info {
+        /* width: 55vw; */
+        max-width: 90%;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+    }
+
+    .recall_info div:first-child {
+        padding: 5% 6% 0 6%;
+        font-size: 0.62rem;
+    }
+
+    .avatar {
+        font-size: 0.87rem;
+        max-width: 83.77%;
+    }
+
+    .avatar div:first-child {
+        width: 31.01%;
+        margin-bottom: 13px;
+        padding-left: 5%;
+    }
+
+    .avatar div p {
+        margin-top: 1.91%;
+        margin-bottom: 6.51%;
+    }
+
+    /* section shedule */
+
+    .shedule_content {
+        height: 363px;
+        max-width: 85%; 
+   }
+
+    .elements_sched h2 {
+        padding-top: 62px;
+        padding-bottom: 22.33px;
+    }
+
+    .name {
+        font-size: 0.75rem;
+    }
+
+    .price {
+        font-size: 2.31rem;
+    }
+
+    .shedule_description {
+        max-width: 82.4%;
+    }
+
+    .shedule_description div {
+        font-size: 0.62rem;
+    }
+
+    /* section footer */
+
+    .footer_content {
+        height: 251px;
+    }
+
+    .logo-sinchro {
+        width: 53px;
+    }
+
+    .ad_screen_contacts {
+        padding-top: 23px;
+        min-width: 16.9%;
+    }
+
+    .elements_foot {
+        flex-direction: column;
+    }
+
+    .contacts {
+        margin-top: 47px;
+        min-width: 148px;
+    }
+
+    .number ul li {
+        font-size: 0.75rem;
+    }
+
+    .number ul li:first-child {
+        height: 13px;
+        width: auto;
+    }
+
+    .mail ul li {
+        font-size: 0.75rem;
+    }
+
+    .mail ul li:first-child {
+        width: 13px;
+        height: auto;
+    }
+
+    .messengers {
+        margin-top: 14px;
+        width: 92px;
+    }
+
+    .messengers div {
+        width: 16px;
+    }
+
+    .signature {
+        font-size: 0.62rem;
+        margin-top: 35px;
+    }
+}
